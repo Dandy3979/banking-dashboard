@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Data files
+# *.csv  ← đã bỏ chặn để push CSV lên GitHub
+
+# 2 file CSV quá lớn (>100MB) - lưu trên Google Drive
+data/card_transactions.csv
+data/transactions.csv
+card_transactions.csv
+transactions.csv
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
